@@ -1,0 +1,3 @@
+function hidereposts(){
+  alert('hello');
+}
