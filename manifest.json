@@ -1,22 +1,14 @@
 {
   "manifest_version": 2,
 
-  "name": "Example 1",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "hideReposts",
+  "description": "Hides soundcloud reposts",
   "version": "1.0",
 
   "browser_action": {
     "default_title": "Click here!",
     "default_icon": "icon.png",
     "default_popup": "popup.html"
-  },
-  "background": {
-    "scripts": ["background.js"]
-  },
-  "content_scripts": [
-    {
-      "matches": ["https://*/*"],
-      "js": ["myscript.js"]
-    }
-  ]
+  }
+   
 }
