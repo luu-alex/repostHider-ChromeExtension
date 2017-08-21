@@ -1,9 +1,9 @@
 
 {
-  "name": "hideReposts",
+  "name": "SoundCloud hideReposts",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "Injecting javascript to remove reposts on Soundcloud",
+  "description": "Removes reposts on Soundcloud so you can enjoy the artists you follow!",
   "background": {
     "scripts": [
       "background.js"
@@ -14,8 +14,10 @@
     "default_title": "Inject!"
   },
   "permissions": [
-    "https://*/*",
-    "http://*/*",
+    "https://soundcloud.com/*",
     "tabs"
-  ]
+  ],
+  "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" }
 }
