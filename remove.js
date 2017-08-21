@@ -23,7 +23,4 @@
 		a[element].parentNode.parentNode.remove();
 		console.log(element)
 	})
-
-	alert('inserted self... giggity');
-
 })();
